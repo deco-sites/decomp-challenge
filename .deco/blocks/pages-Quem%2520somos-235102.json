@@ -1,1 +1,57 @@
-{"name":"Quem somos","path":"/quem-somos","sections":[{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Images/Carousel.tsx","images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/edc31606-e151-4eac-860b-b504cd2da8ad","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/edc31606-e151-4eac-860b-b504cd2da8ad","alt":"WDM Commerce","action":{"href":"https://www.wdmsolutions.com.br/","subTitle":"O motivo dessa loja é tirar a certificação da deco, e se tornar uma agência certificada.","label":"Saiba Mais","title":"WDM Commerce"}}],"preload":true},{"__resolveType":"site/sections/Content/RichText.tsx","text":"<p><br><br><br></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\">Objetivo da loja é criar um e-commerce de produtos aleatórios, tipo um markeplace, consumindo a <a title=\"Fakesotre API\" href=\"https://fakestoreapi.com/\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://fakestoreapi.com/\">Fakesotre API</a></span></p>"},{"__resolveType":"site/sections/Cupom.tsx","layout":{"header":{"fontSize":"Normal"},"content":{"alignment":"Center"}},"description":"Um ano gratis de hospedagem na deco.","couponCode":"Decocx24!"}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Quem somos","description":"WDM Commerce","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/1a88d527-b046-4dc4-b3a5-d3164917d83d"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Quem somos",
+  "path": "/quem-somos",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Quem Somos",
+      "titleTemplate": "Quem Somos",
+      "description": "Lorem ipsum dolor sit amet",
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/a63feb20-1fb7-42e7-aaf1-2b350a9f6385",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/41e347e7-8df1-4d28-8975-704cdab31b36"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Content/Hero.tsx",
+      "placement": "right",
+      "description": "Objetivo dessa loja é testar minhas habilidades em utilizar a plataforma da Deco. E tornar minha agência uma agência parceira!",
+      "cta": [
+        {
+          "variant": "Normal",
+          "href": "https://wdmsolutions.com.br",
+          "text": "Confira!"
+        }
+      ],
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/32ca76eb-6ea3-47c5-91b6-d7194b3a93a5",
+      "title": "<p>Fake Store</p>"
+    },
+    {
+      "__resolveType": "site/sections/Content/RichText.tsx",
+      "text": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><strong><span style=\"font-size: 18pt;\" data-mce-style=\"font-size: 18pt;\">Objetivo dessa loja é testar minhas habilidades em utilizar a plataforma da Deco. E tornar minha agência uma agência parceira!</span></strong></p><p><br><br></p>"
+    },
+    {
+      "__resolveType": "site/sections/Cupom.tsx",
+      "description": "Um ano gratis de hospedagem na deco.",
+      "layout": {
+        "header": {
+          "fontSize": "Normal"
+        },
+        "content": {
+          "alignment": "Center"
+        }
+      },
+      "couponCode": "Decocx24!"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Quem somos",
+    "description": "WDM Commerce",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/1a88d527-b046-4dc4-b3a5-d3164917d83d"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

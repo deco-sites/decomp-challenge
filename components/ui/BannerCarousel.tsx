@@ -99,15 +99,16 @@ const DEFAULT_PROPS = {
   preload: true,
 };
 
-function BannerItem(
-  { image, lcp, id }: { image: Banner; lcp?: boolean; id: string },
-) {
-  const {
-    alt,
-    mobile,
-    desktop,
-    action,
-  } = image;
+function BannerItem({
+  image,
+  lcp,
+  id,
+}: {
+  image: Banner;
+  lcp?: boolean;
+  id: string;
+}) {
+  const { alt, mobile, desktop, action } = image;
 
   return (
     <a
@@ -118,9 +119,7 @@ function BannerItem(
     >
       {action && (
         <div class="absolute top-0 md:bottom-0 bottom-1/2 left-0 right-0 sm:right-auto max-w-[407px] flex flex-col justify-end gap-4 px-8 py-12">
-          <span class="text-2xl font-light text-base-100">
-            {action.title}
-          </span>
+          <span class="text-2xl font-light text-base-100">{action.title}</span>
           <span class="font-normal text-4xl text-base-100">
             {action.subTitle}
           </span>

@@ -24,9 +24,36 @@ const PLACEMENT = {
   right: "flex-col text-left lg:flex-row",
 };
 
+const FallbackData = (src: string, title: string, description: string) => {
+  return (
+    <HeroFlats
+      title="Geladeira Brastemp"
+      placement="right"
+      description="Confira as ultimas ofertas da Brastemp"
+      cta={[{ text: "Saiba Mais", href: "/culturas", variant: "Normal" }]}
+      image={src}
+    />
+  );
+};
+
+export function ErrorFallback({ error }: { error?: Error }) {
+  return FallbackData(
+    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/650a7dc5-4d62-42e0-a94d-81d50d456f80",
+    "Geladeira Brastemp",
+    "Confira as ultimas ofertas da Brastemp"
+  );
+}
+
+export function LoadingFallback() {
+  return FallbackData(
+    "https://t3.ftcdn.net/jpg/02/68/55/60/360_F_268556012_c1WBaKFN5rjRxR2eyV33znK4qnYeKZjm.jpg",
+    "loading",
+    "loading"
+  );
+}
 export default function HeroFlats({
-  title = "Hero",
-  description = "Your description here",
+  title,
+  description,
   image,
   placement,
   cta,
@@ -64,8 +91,7 @@ export default function HeroFlats({
               dangerouslySetInnerHTML={{
                 __html: title,
               }}
-            >
-            </div>
+            ></div>
             <p class="text-zinc-400 text-[16px] md:text-[18px] leading-[150%]">
               {description}
             </p>
@@ -82,8 +108,7 @@ export default function HeroFlats({
                       : "bg-accent text-black"
                   }`}
                 >
-                  <span class="ease absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-1000 group-hover:-translate-x-40">
-                  </span>
+                  <span class="ease absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-1000 group-hover:-translate-x-40"></span>
                   <span class="relative font-medium lg:text-[20px]">
                     {item?.text}
                   </span>

@@ -1,1 +1,50 @@
-{"name":"Culturas","path":"/culturas","sections":[{"__resolveType":"site/sections/Header/Header.tsx","navItems":{"__resolveType":"navbar"},"buttons":{"hideSearchButton":true,"hideAccountButton":true,"hideWishlistButton":true,"hideCartButton":true}},{"__resolveType":"site/sections/Images/Carousel.tsx","preload":true,"arrows":true,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/650a7dc5-4d62-42e0-a94d-81d50d456f80","alt":"Geladeira Brastemp","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/d0c80ec4-2b67-4847-8514-6281599b63a1"},{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/7fa325b6-f405-4067-9162-2b8e074818ff","alt":"Produtos consul","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/f920dec1-c48f-492e-a1e6-a972887a84f7"}],"dots":true,"interval":5},{"__resolveType":"site/sections/Lugar.tsx","temperature":{"__resolveType":"weather/loaders/temperature.ts","lat":-23.6145221,"long":-46.769089},"text":"São paulo SP"}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Culturas",
+  "path": "/culturas",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header/Header.tsx",
+      "navItems": {
+        "__resolveType": "navbar"
+      },
+      "buttons": {
+        "hideSearchButton": true,
+        "hideAccountButton": true,
+        "hideWishlistButton": true,
+        "hideCartButton": true
+      }
+    },
+    {
+      "__resolveType": "site/sections/Images/Carousel.tsx",
+      "preload": true,
+      "arrows": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/650a7dc5-4d62-42e0-a94d-81d50d456f80",
+          "alt": "Geladeira Brastemp",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/d0c80ec4-2b67-4847-8514-6281599b63a1"
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/7fa325b6-f405-4067-9162-2b8e074818ff",
+          "alt": "Produtos consul",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/f920dec1-c48f-492e-a1e6-a972887a84f7"
+        }
+      ],
+      "dots": true,
+      "interval": 5
+    },
+    {
+      "__resolveType": "site/sections/Lugar.tsx",
+      "temperature": {
+        "__resolveType": "weather/loaders/temperature.ts",
+        "lat": -23.6145221,
+        "long": -46.769089
+      },
+      "text": "São paulo SP"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

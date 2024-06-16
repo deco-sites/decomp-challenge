@@ -1,0 +1,22 @@
+{
+  "name": "Stats",
+  "path": "/stats",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Events/TotalEvents.tsx",
+      "total": {
+        "__resolveType": "site/loaders/comments/GetAllComments.ts"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Events/ShowProductEvents.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

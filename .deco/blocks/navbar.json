@@ -1,1 +1,30 @@
-{"items":[{"children":[],"image":[],"name":"Culturas","url":"/culturas","identifier":"Culturas","additionalType":"Culturas"},{"children":[],"image":[],"name":"Quem Somos","url":"/quem-somos","identifier":"Quem Somos","additionalType":"Quem Somos"}],"__resolveType":"commerce/loaders/navbar.ts"}
+{
+  "items": [
+    {
+      "children": [],
+      "image": [],
+      "name": "Culturas",
+      "url": "/culturas",
+      "identifier": "Culturas",
+      "additionalType": "Culturas"
+    },
+    {
+      "children": [],
+      "image": [],
+      "name": "Quem Somos",
+      "url": "/quem-somos",
+      "identifier": "Quem Somos",
+      "additionalType": "Quem Somos"
+    },
+    {
+      "children": [],
+      "image": [
+        {
+          "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/d8508029-d367-467b-a830-f97ee82c1213"
+        }
+      ],
+      "url": "/stats"
+    }
+  ],
+  "__resolveType": "commerce/loaders/navbar.ts"
+}
