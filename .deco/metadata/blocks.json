@@ -338,5 +338,15 @@
   "/.deco/blocks/Preview%20site%2Floaders%2Fcomments%2FGetAllComments.ts.json": {
     "blockType": "loaders",
     "__resolveType": "site/loaders/comments/GetAllComments.ts"
+  },
+  "/.deco/blocks/Mais%20vendidos.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Product/ProductShelf.tsx"
+  },
+  "/.deco/blocks/pages-My%2520New%2520Page-233220.json": {
+    "name": "My New Page",
+    "path": "/test",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

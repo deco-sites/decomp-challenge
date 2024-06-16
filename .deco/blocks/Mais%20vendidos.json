@@ -1,0 +1,22 @@
+{
+  "__resolveType": "site/sections/Product/ProductShelf.tsx",
+  "products": {
+    "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+    "props": {
+      "sort": "price:desc",
+      "collection": "Mais vendidos",
+      "count": 4
+    }
+  },
+  "layout": {
+    "numberOfSliders": {
+      "mobile": 2,
+      "desktop": 4
+    },
+    "headerAlignment": "center",
+    "headerfontSize": "Normal",
+    "showArrows": true
+  },
+  "title": "Mais vendidos",
+  "description": "Produtos mais vendidos"
+}

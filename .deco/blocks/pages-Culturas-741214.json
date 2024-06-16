@@ -44,7 +44,11 @@
     }
   ],
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Culturas",
+    "description": "CultiLorem ipsum",
+    "type": "website",
+    "favicon": ""
   },
   "__resolveType": "website/pages/Page.tsx"
 }

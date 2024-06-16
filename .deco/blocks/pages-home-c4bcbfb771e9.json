@@ -13,22 +13,172 @@
       "productAds": [
         {
           "__resolveType": "site/sections/Product/ProductAd.tsx",
-          "adDescription": "Teste2",
           "product": {
-            "__resolveType": "PDP Loader"
+            "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+            "slug": "camisa-masculina-xadrez-sun-e-azul",
+            "similars": true,
+            "indexingSkus": true
+          },
+          "isOpenModal": false
+        },
+        {
+          "__resolveType": "site/sections/Product/ProductAd.tsx",
+          "product": {
+            "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+            "slug": "vestido-sunset",
+            "similars": true,
+            "indexingSkus": true
           }
         },
         {
           "__resolveType": "site/sections/Product/ProductAd.tsx",
-          "adDescription": "Teste2",
           "product": {
-            "__resolveType": "PDP Loader"
+            "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+            "slug": "camisa-masculina-sun",
+            "similars": true,
+            "indexingSkus": true
           },
-          "vertical": true,
-          "animateImage": true,
-          "highlight": true
+          "isOpenModal": false
+        },
+        {
+          "__resolveType": "site/sections/Product/ProductAd.tsx",
+          "product": {
+            "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+            "slug": "casaco-feminino-savana",
+            "similars": true,
+            "indexingSkus": true
+          }
         }
       ]
+    },
+    {
+      "__resolveType": "site/sections/Images/BannerGrid.tsx",
+      "title": "Cultures",
+      "banners": [
+        {
+          "alt": "a",
+          "href": "a",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/650a7dc5-4d62-42e0-a94d-81d50d456f80",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/d0c80ec4-2b67-4847-8514-6281599b63a1"
+        },
+        {
+          "alt": "a",
+          "href": "a",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/7fa325b6-f405-4067-9162-2b8e074818ff",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/f920dec1-c48f-492e-a1e6-a972887a84f7"
+        }
+      ],
+      "borderRadius": {
+        "mobile": "3xl",
+        "desktop": "3xl"
+      },
+      "itemsPerLine": {
+        "mobile": 2,
+        "desktop": 2
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "Lançamentos",
+      "layout": {
+        "headerfontSize": "Normal",
+        "headerAlignment": "left"
+      },
+      "products": {
+        "props": {
+          "sort": "release:desc",
+          "query": "Camiseta",
+          "count": 6
+        },
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+      },
+      "cardLayout": {
+        "hide": {},
+        "basics": {
+          "oldPriceSize": "Small",
+          "contentAlignment": "Left"
+        },
+        "onMouseOver": {
+          "card": "None",
+          "image": "Change image"
+        },
+        "elementsPositions": {
+          "skuSelector": "Top",
+          "favoriteIcon": "Top right"
+        }
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductAd.tsx",
+      "product": {
+        "data": {
+          "slug": "camisa-polo-masculina-azul-sea",
+          "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts"
+        },
+        "extensions": [
+          {
+            "__resolveType": "vtex/loaders/product/extensions/detailsPage.ts"
+          }
+        ],
+        "__resolveType": "commerce/loaders/product/extensions/detailsPage.ts"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "Mais vendidos",
+      "layout": {
+        "headerfontSize": "Large",
+        "headerAlignment": "center",
+        "numberOfSliders": {
+          "mobile": 1,
+          "desktop": 4
+        }
+      },
+      "products": {
+        "props": {
+          "sort": "orders:desc",
+          "count": 6,
+          "query": "Vestidos"
+        },
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+      },
+      "cardLayout": {
+        "hide": {
+          "cta": true,
+          "skuSelector": true
+        },
+        "basics": {
+          "ctaText": "View more",
+          "oldPriceSize": "Normal",
+          "contentAlignment": "Center"
+        },
+        "onMouseOver": {
+          "card": "None",
+          "image": "Change image"
+        },
+        "elementsPositions": {
+          "skuSelector": "Bottom",
+          "favoriteIcon": "Top right"
+        }
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductAd.tsx",
+      "product": {
+        "data": {
+          "slug": "camiseta-verde-clara",
+          "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts"
+        },
+        "extensions": [
+          {
+            "__resolveType": "vtex/loaders/product/extensions/detailsPage.ts"
+          }
+        ],
+        "__resolveType": "commerce/loaders/product/extensions/detailsPage.ts"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Footer/Footer.tsx"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",

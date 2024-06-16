@@ -32,14 +32,14 @@ export default function PartialProductAd({
           src={image}
           width={30}
           height={30}
-        >
-        </img>
+        ></img>
         <button
           {...usePartialSection({
             props: {
-              currentProduct: currentProduct + 1 === productAds.length
-                ? 0
-                : currentProduct + 1,
+              currentProduct:
+                currentProduct + 1 === productAds.length
+                  ? 0
+                  : currentProduct + 1,
             },
           })}
           class="px-5 py-2 text-white bg-teal-600 pointer text-xl font-bold w-full rounded"
