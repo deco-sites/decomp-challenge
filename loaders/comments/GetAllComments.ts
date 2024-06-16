@@ -5,7 +5,7 @@ export interface Props {
 const GetAllComments = async (
   _props: unknown,
   _req: Request,
-  _ctx: unknown
+  _ctx: unknown,
 ): Promise<Props> => {
   const response = await fetch(`https://camp-api.deco.cx/events`, {
     headers: {

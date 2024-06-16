@@ -10,7 +10,7 @@ export interface ProductCommentsDTO {
 const GetCommentsByProductId = async (
   props: Props,
   _req: Request,
-  _ctx: unknown
+  _ctx: unknown,
 ): Promise<ProductCommentsDTO> => {
   const response: ProductCommentsDTO = await fetch(
     `https://camp-api.deco.cx/event/${props.productId}`,
@@ -18,7 +18,7 @@ const GetCommentsByProductId = async (
       headers: {
         "x-api-key": "decomp-challenge",
       },
-    }
+    },
   ).then((response) => response.json());
 
   const filteredComments = response.comments.filter((comment) => {

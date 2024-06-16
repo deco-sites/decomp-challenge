@@ -1,4 +1,4 @@
-import { useState, useEffect } from "preact/hooks";
+import { useEffect, useState } from "preact/hooks";
 import { useSignal } from "@preact/signals";
 import { invoke } from "../../runtime.ts";
 
@@ -14,8 +14,8 @@ export default function ShowProductEvents() {
   useEffect(() => {
     const interval = setTimeout(async () => {
       if (inputValue) {
-        const response: ProductComments =
-          await invoke.site.loaders.comments.GetCommentsByProductId({
+        const response: ProductComments = await invoke.site.loaders.comments
+          .GetCommentsByProductId({
             productId: inputValue,
           });
 
