@@ -35,7 +35,8 @@ export function LoadingFallback() {
           productID: "0",
           image: [
             {
-              url: "https://t3.ftcdn.net/jpg/02/68/55/60/360_F_268556012_c1WBaKFN5rjRxR2eyV33znK4qnYeKZjm.jpg",
+              url:
+                "https://t3.ftcdn.net/jpg/02/68/55/60/360_F_268556012_c1WBaKFN5rjRxR2eyV33znK4qnYeKZjm.jpg",
               "@type": "ImageObject",
             },
           ],
@@ -76,9 +77,9 @@ export default function ProductAdSection({
           width={280}
           height={420}
           alt={product?.product.name ?? ""}
-          src={
-            product?.product.image ? product?.product?.image[0]?.url ?? "" : ""
-          }
+          src={product?.product.image
+            ? product?.product?.image[0]?.url ?? ""
+            : ""}
           decoding="async"
           loading="lazy"
         />
@@ -152,7 +153,8 @@ export default function ProductAdSection({
               cols={30}
               rows={10}
               className="border p-2 rounded-lg w-full mb-4"
-            ></textarea>
+            >
+            </textarea>
             <div className="flex justify-end gap-4">
               <button
                 {...usePartialSection({
