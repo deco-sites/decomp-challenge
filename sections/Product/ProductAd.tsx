@@ -75,6 +75,7 @@ export default function ProductAdSection({
           class={`${animateImage ? ANIMATE_IMAGE : ""}`}
           width={280}
           height={420}
+          alt={product?.product.name ?? ""}
           src={
             product?.product.image ? product?.product?.image[0]?.url ?? "" : ""
           }

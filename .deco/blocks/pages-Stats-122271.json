@@ -13,6 +13,14 @@
     },
     {
       "__resolveType": "site/sections/Events/ShowProductEvents.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Stats Page",
+      "description": "Stats Description",
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/79f321d5-810c-4114-84b3-673b53ee735e",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/d87bb5dc-9c90-4f85-873c-f5200087ba0d"
     }
   ],
   "seo": {

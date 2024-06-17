@@ -41,6 +41,14 @@
         "long": -46.769089
       },
       "text": "São paulo SP"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Culturas",
+      "description": "Pagina de culturas Wdm Commerce",
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/79f321d5-810c-4114-84b3-673b53ee735e",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/d87bb5dc-9c90-4f85-873c-f5200087ba0d"
     }
   ],
   "seo": {

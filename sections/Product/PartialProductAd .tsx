@@ -1,6 +1,7 @@
 import type { Section } from "deco/blocks/section.ts";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import { usePartialSection } from "deco/hooks/usePartialSection.ts";
+import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
   productAds: Section[];
@@ -27,12 +28,13 @@ export default function PartialProductAd({
 
       <div class="flex md:w-1/3 flex-col gap-4">
         <p>{message}</p>
-        <img
+        <Image
           class="transition-transform transform hover:scale-125"
+          alt="Logo image"
           src={image}
           width={30}
           height={30}
-        ></img>
+        />
         <button
           {...usePartialSection({
             props: {

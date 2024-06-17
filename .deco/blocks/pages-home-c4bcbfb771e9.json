@@ -179,6 +179,14 @@
     },
     {
       "__resolveType": "site/sections/Footer/Footer.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Home",
+      "description": "WDM Commerce",
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/79f321d5-810c-4114-84b3-673b53ee735e",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10273/d87bb5dc-9c90-4f85-873c-f5200087ba0d"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
